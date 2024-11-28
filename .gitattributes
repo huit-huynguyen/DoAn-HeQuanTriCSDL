@@ -1,0 +1,37 @@
+# ===============================================
+# Line endings
+# ===============================================
+
+* text=auto eol=lf
+
+# Force LF for Unix shell scripts
+*.sh text eol=lf
+
+# Force CRLF for Windows shell scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Force CRLF for solution and project files
+*.sln text eol=crlf
+*.csproj text eol=crlf
+
+# ===============================================
+# Binary files
+# ===============================================
+
+# Common font formats
+*.woff binary
+*.woff2 binary
+
+# Common image formats
+*.png binary
+*.jpg binary
+*.ico binary
+*.gif binary
+
+# ===============================================
+# Vendor files
+# ===============================================
+
+# Mark vendor directory as excluded from code statistics
+CuaHangThoiTrang/wwwroot/lib linguist-vendored=true
